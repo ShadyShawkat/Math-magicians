@@ -38,7 +38,7 @@
 
 Any change to the project should be done in the folder `src`.
 
-## Authors
+## Author
 
 👤 **Shady Shawkat**
 
