@@ -20,6 +20,7 @@
     "lintStyle": "npx stylelint \"**/*.{css,scss}\" --fix",
     "lintJS": "npx eslint . --fix",
     "fixLinters": "npm run lintStyle && npm run lintJS",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
