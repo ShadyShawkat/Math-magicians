@@ -53,7 +53,7 @@
   "bugs": {
     "url": "https://github.com/ShadyShawkat/Math-magicians/issues"
   },
-  "homepage": "https://github.com/ShadyShawkat/Math-magicians/",
+  "homepage": "https://shadyshawkat.github.io/Math-magicians/",
   "devDependencies": {
     "@babel/core": "^7.16.7",
     "@babel/eslint-parser": "^7.16.5",
