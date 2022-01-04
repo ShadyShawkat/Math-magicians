@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "big.js": "^6.1.1",
     "prop-types": "^15.8.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -52,7 +53,7 @@
   "bugs": {
     "url": "https://github.com/ShadyShawkat/Math-magicians/issues"
   },
-  "homepage": "https://github.com/ShadyShawkat/Math-magicians/",
+  "homepage": "https://shadyshawkat.github.io/Math-magicians/",
   "devDependencies": {
     "@babel/core": "^7.16.7",
     "@babel/eslint-parser": "^7.16.5",
