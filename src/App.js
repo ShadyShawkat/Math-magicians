@@ -1,9 +1,10 @@
+import Calculator from './components/Calculator/Calculator';
+import styles from './App.module.css';
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>Hello React</p>
-      </header>
+    <div className={styles.wrapper}>
+      <Calculator />
     </div>
   );
 }
