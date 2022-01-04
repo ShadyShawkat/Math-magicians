@@ -1,0 +1,21 @@
+.calculator {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  height: 100%;
+  width: 100%;
+}
+
+.calculator > * {
+  border: 2px solid #bababa;
+}
+
+.calculator_output {
+  all: unset;
+  text-align: right;
+  grid-column: 1/5;
+  background-color: #858694;
+  color: white;
+  font-size: 3rem;
+  padding-right: 1rem;
+}
