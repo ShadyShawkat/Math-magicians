@@ -1,10 +1,10 @@
-/* eslint-disable object-curly-newline */
-
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Button.module.css';
 
-const Button = ({ children, isZero, isOperator, btnClickHandler }) => (
+const Button = ({
+  children, isZero, isOperator, btnClickHandler,
+}) => (
   <button
     type="button"
     className={`
