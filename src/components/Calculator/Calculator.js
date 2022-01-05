@@ -37,6 +37,11 @@ const Calculator = () => {
   const btnClickHandler = (event) => {
     const newState = calculate(calculator, event.target.textContent);
     let newInputValue = 0;
+    if (newState.total === "Can't divide by 0.") {
+      setInputValue("Can't divide by 0.");
+      setCalculator({});
+      return;
+    }
     if (newState.next && !newState.total && !newState.operation) {
       newInputValue = newState.next;
     }
