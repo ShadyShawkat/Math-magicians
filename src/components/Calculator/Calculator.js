@@ -1,5 +1,4 @@
-/* eslint-disable react/prefer-stateless-function */
-import React from 'react';
+import { useState } from 'react';
 import Button from '../Button/Button';
 import calculate from '../../logic/calculate';
 
@@ -27,22 +26,15 @@ const btnTexts = [
   '=',
 ];
 
-class Calculator extends React.Component {
-  constructor(props) {
-    super(props);
+const Calculator = () => {
+  const [calculator, setCalculator] = useState({
+    total: null,
+    next: null,
+    operation: null,
+  });
+  const [inputValue, setInputValue] = useState('0');
 
-    this.state = {
-      calculator: {
-        total: null,
-        next: null,
-        operation: null,
-      },
-      inputValue: '0',
-    };
-  }
-
-  btnClickHandler = (event) => {
-    const { calculator } = this.state;
+  const btnClickHandler = (event) => {
     const newState = calculate(calculator, event.target.textContent);
     let newInputValue = 0;
     if (newState.next && !newState.total && !newState.operation) {
@@ -55,33 +47,26 @@ class Calculator extends React.Component {
       newInputValue = newState.total + newState.operation + newState.next;
     }
     if (newState.total !== undefined || newState.next !== undefined) {
-      this.setState({ calculator: newState });
+      setCalculator(newState);
     }
-    this.setState({ inputValue: newInputValue });
+    setInputValue(newInputValue);
   };
 
-  render() {
-    const { inputValue } = this.state;
-    return (
-      <div className={styles.calculator}>
-        <input
-          disabled
-          className={styles.calculator_output}
-          value={inputValue}
-        />
-        {btnTexts.map((btnTxt) => (
-          <Button
-            key={Math.random()}
-            isZero={btnTxt === '0'}
-            isOperator={['÷', 'x', '-', '+', '='].includes(btnTxt)}
-            btnClickHandler={this.btnClickHandler}
-          >
-            {btnTxt}
-          </Button>
-        ))}
-      </div>
-    );
-  }
-}
+  return (
+    <div className={styles.calculator}>
+      <input disabled className={styles.calculator_output} value={inputValue} />
+      {btnTexts.map((btnTxt) => (
+        <Button
+          key={Math.random()}
+          isZero={btnTxt === '0'}
+          isOperator={['÷', 'x', '-', '+', '='].includes(btnTxt)}
+          btnClickHandler={btnClickHandler}
+        >
+          {btnTxt}
+        </Button>
+      ))}
+    </div>
+  );
+};
 
 export default Calculator;
