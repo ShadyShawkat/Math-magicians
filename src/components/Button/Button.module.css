@@ -1,0 +1,19 @@
+.btn {
+  background-color: #e0e0e0;
+  font-size: 2rem;
+  color: black;
+  cursor: pointer;
+}
+
+.btn:hover {
+  filter: brightness(95%);
+  font-size: 2.25rem;
+}
+
+.zero-num {
+  grid-column: 1 / span 2;
+}
+
+.operator {
+  background-color: #f5913e;
+}
