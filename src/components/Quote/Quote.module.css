@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.quote {
+  margin-top: 2em;
+  font-size: 2em;
+}
+
+.quote-text {
+  font-family: 'Pacifico', cursive;
+}
+
+.quote span {
+  float: right;
+}

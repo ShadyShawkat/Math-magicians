@@ -4,6 +4,13 @@
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   height: 100%;
   width: 100%;
+  max-width: 500px;
+  min-width: 350px;
+  min-height: 550px;
+  max-height: 75vw;
+  padding: 10px;
+  border: 7px solid black;
+  font-family: 'Orbitron', sans-serif;
 }
 
 .calculator > * {
@@ -18,5 +25,4 @@
   color: white;
   font-size: 3rem;
   padding-right: 1rem;
-  font-family: 'Orbitron', sans-serif;
 }

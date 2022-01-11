@@ -1,0 +1,27 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2.5em;
+}
+
+.nav h1 {
+  font-size: 2em;
+}
+
+.nav-links {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+.nav-links li {
+  border-right: 2px solid black;
+  padding-right: 0.5em;
+}
+
+.nav-links li:last-child {
+  border-right: none;
+  padding-right: 0;
+}
