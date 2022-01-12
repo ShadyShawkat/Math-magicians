@@ -59,7 +59,12 @@ const Calculator = () => {
 
   return (
     <div className={styles.calculator}>
-      <input disabled className={styles.calculator_output} value={inputValue} />
+      <input
+        disabled
+        className={styles.calculator_output}
+        value={inputValue}
+        data-testid="output"
+      />
       {btnTexts.map((btnTxt) => (
         <Button
           key={Math.random()}
