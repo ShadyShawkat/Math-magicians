@@ -1,0 +1,642 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing components render Tests Calculator.js component render 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="calculator"
+      >
+        <input
+          class="calculator_output"
+          data-testid="output"
+          disabled=""
+          value="0"
+        />
+        <button
+          class="
+          btn 
+           
+          
+        "
+          type="button"
+        >
+          AC
+        </button>
+        <button
+          class="
+          btn 
+           
+          
+        "
+          type="button"
+        >
+          +/-
+        </button>
+        <button
+          class="
+          btn 
+           
+          
+        "
+          type="button"
+        >
+          %
+        </button>
+        <button
+          class="
+          btn 
+           
+          operator
+        "
+          type="button"
+        >
+          ÷
+        </button>
+        <button
+          class="
+          btn 
+           
+          
+        "
+          type="button"
+        >
+          7
+        </button>
+        <button
+          class="
+          btn 
+           
+          
+        "
+          type="button"
+        >
+          8
+        </button>
+        <button
+          class="
+          btn 
+           
+          
+        "
+          type="button"
+        >
+          9
+        </button>
+        <button
+          class="
+          btn 
+           
+          operator
+        "
+          type="button"
+        >
+          x
+        </button>
+        <button
+          class="
+          btn 
+           
+          
+        "
+          type="button"
+        >
+          4
+        </button>
+        <button
+          class="
+          btn 
+           
+          
+        "
+          type="button"
+        >
+          5
+        </button>
+        <button
+          class="
+          btn 
+           
+          
+        "
+          type="button"
+        >
+          6
+        </button>
+        <button
+          class="
+          btn 
+           
+          operator
+        "
+          type="button"
+        >
+          -
+        </button>
+        <button
+          class="
+          btn 
+           
+          
+        "
+          type="button"
+        >
+          1
+        </button>
+        <button
+          class="
+          btn 
+           
+          
+        "
+          type="button"
+        >
+          2
+        </button>
+        <button
+          class="
+          btn 
+           
+          
+        "
+          type="button"
+        >
+          3
+        </button>
+        <button
+          class="
+          btn 
+           
+          operator
+        "
+          type="button"
+        >
+          +
+        </button>
+        <button
+          class="
+          btn 
+          zero-num 
+          
+        "
+          type="button"
+        >
+          0
+        </button>
+        <button
+          class="
+          btn 
+           
+          
+        "
+          type="button"
+        >
+          .
+        </button>
+        <button
+          class="
+          btn 
+           
+          operator
+        "
+          type="button"
+        >
+          =
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="calculator"
+    >
+      <input
+        class="calculator_output"
+        data-testid="output"
+        disabled=""
+        value="0"
+      />
+      <button
+        class="
+          btn 
+           
+          
+        "
+        type="button"
+      >
+        AC
+      </button>
+      <button
+        class="
+          btn 
+           
+          
+        "
+        type="button"
+      >
+        +/-
+      </button>
+      <button
+        class="
+          btn 
+           
+          
+        "
+        type="button"
+      >
+        %
+      </button>
+      <button
+        class="
+          btn 
+           
+          operator
+        "
+        type="button"
+      >
+        ÷
+      </button>
+      <button
+        class="
+          btn 
+           
+          
+        "
+        type="button"
+      >
+        7
+      </button>
+      <button
+        class="
+          btn 
+           
+          
+        "
+        type="button"
+      >
+        8
+      </button>
+      <button
+        class="
+          btn 
+           
+          
+        "
+        type="button"
+      >
+        9
+      </button>
+      <button
+        class="
+          btn 
+           
+          operator
+        "
+        type="button"
+      >
+        x
+      </button>
+      <button
+        class="
+          btn 
+           
+          
+        "
+        type="button"
+      >
+        4
+      </button>
+      <button
+        class="
+          btn 
+           
+          
+        "
+        type="button"
+      >
+        5
+      </button>
+      <button
+        class="
+          btn 
+           
+          
+        "
+        type="button"
+      >
+        6
+      </button>
+      <button
+        class="
+          btn 
+           
+          operator
+        "
+        type="button"
+      >
+        -
+      </button>
+      <button
+        class="
+          btn 
+           
+          
+        "
+        type="button"
+      >
+        1
+      </button>
+      <button
+        class="
+          btn 
+           
+          
+        "
+        type="button"
+      >
+        2
+      </button>
+      <button
+        class="
+          btn 
+           
+          
+        "
+        type="button"
+      >
+        3
+      </button>
+      <button
+        class="
+          btn 
+           
+          operator
+        "
+        type="button"
+      >
+        +
+      </button>
+      <button
+        class="
+          btn 
+          zero-num 
+          
+        "
+        type="button"
+      >
+        0
+      </button>
+      <button
+        class="
+          btn 
+           
+          
+        "
+        type="button"
+      >
+        .
+      </button>
+      <button
+        class="
+          btn 
+           
+          operator
+        "
+        type="button"
+      >
+        =
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Testing components render Tests Home.js component render 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="home"
+      >
+        <h2>
+          Welcome to my page!
+        </h2>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+        </p>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
+        </p>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="home"
+    >
+      <h2>
+        Welcome to my page!
+      </h2>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+      </p>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
+      </p>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Testing components render Tests Quote.js component render 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="quote"
+      >
+        <div
+          class="quote-text"
+        >
+          "Mathmatics is not about numbers, equation, computations, or algorithms: it is about understanding."
+        </div>
+        <br />
+        <span>
+          -William Paul Thurston
+        </span>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="quote"
+    >
+      <div
+        class="quote-text"
+      >
+        "Mathmatics is not about numbers, equation, computations, or algorithms: it is about understanding."
+      </div>
+      <br />
+      <span>
+        -William Paul Thurston
+      </span>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
