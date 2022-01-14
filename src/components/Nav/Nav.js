@@ -7,13 +7,13 @@ const Nav = () => (
     <h1>Math Magicians</h1>
     <ul className={styles['nav-links']}>
       <li>
-        <Link to="/">Home</Link>
+        <Link to="/Math-magicians/">Home</Link>
       </li>
       <li>
-        <Link to="/calculator">Calculator</Link>
+        <Link to="/Math-magicians/calculator">Calculator</Link>
       </li>
       <li>
-        <Link to="/quote">Quote</Link>
+        <Link to="/Math-magicians/quote">Quote</Link>
       </li>
     </ul>
   </nav>
