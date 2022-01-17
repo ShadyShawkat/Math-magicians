@@ -18,7 +18,9 @@
 
 ## Live Demo
 
-[Check here the Live Demo!](https://shadyshawkat.github.io/Math-magicians/)
+- [Check here the Live Demo!](https://shadyshawkat.github.io/Math-magicians/)
+- [Heroku](https://math-magicians-501.herokuapp.com/Math-magicians/)
+- [Netlify](https://math-magicians-501.netlify.app/Math-magicians/)
 
 ### Prerequisites
 
